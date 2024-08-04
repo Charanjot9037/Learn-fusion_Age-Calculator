@@ -58,7 +58,7 @@ if(m3 <0)
     y3--;
 }
 
-result.innerHTML=` ${username} YOU ARE  ${y3} YEARS,${m3} MONTHS AND ${d3} DAYS OLD`;
+result.innerHTML=` <span>${username}</span> YOU ARE  <span>${y3}</span> YEARS,<span>${m3}</span> MONTHS AND<span> ${d3}</span> DAYS OLD`;
 function getdayinmonth(year,month)
 {
     return new Date(year,month, 0).getDate();
