@@ -84,3 +84,6 @@ cursor: pointer;
 #result{
     font-size: 30px;
 }
+#result span{
+    color:lightskyblue;
+}
